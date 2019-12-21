@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # 原始数据列如下：instant,dteday,season,yr,mnth,hr,holiday,weekday,workingday,weathersit,temp,atemp,hum,windspeed,casual,registered,cnt
 # 引入数据
-data_path = 'Bike-Sharing-Dataset/hour.csv'
+data_path = 'hour.csv'
 rides = pd.read_csv(data_path)
 rides.head()
 # 绘制前十天的数据
