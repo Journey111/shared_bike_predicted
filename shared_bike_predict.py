@@ -206,10 +206,10 @@ unittest.TextTestRunner().run(suite)
 import sys
 
 ### 超参数设置 ###
-iterations = 5000
-learning_rate = 0.1
-hidden_nodes = 10
-output_nodes = 5
+iterations = 4000
+learning_rate = 0.8
+hidden_nodes = 16
+output_nodes = 1
 
 N_i = train_features.shape[1]
 # 初始化网络
